@@ -1,5 +1,7 @@
 ## Array
 
+[Demo](https://github.com/janlin002/LearnTypeScript/blob/master/Demo/Array.ts)
+
 ### 建立方法
 
 ## 1
