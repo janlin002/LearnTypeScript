@@ -1,5 +1,7 @@
 # LearnTypeScript
 
+[TypeScript新手指南](https://willh.gitbook.io/typescript-tutorial/basics)
+
 ## 基礎環境設置
 
 ```bash
