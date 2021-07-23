@@ -8,7 +8,7 @@
 npm install typescript -g
 ```
 
-## ts-node
+## ts-node(直接編譯ts檔案，不需轉譯成js檔案)
 
 [npm](https://www.npmjs.com/package/ts-node)
 
