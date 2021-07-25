@@ -2,6 +2,8 @@
 
 [TypeScript新手指南](https://willh.gitbook.io/typescript-tutorial/basics)
 
+[TypeScript中文手冊](https://typescript.bootcss.com/)
+
 ## 基礎環境設置
 
 ```bash
