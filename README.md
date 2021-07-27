@@ -1,8 +1,10 @@
 # LearnTypeScript
 
-[TypeScript新手指南](https://willh.gitbook.io/typescript-tutorial/basics)
+[TypeScript 新手指南](https://willh.gitbook.io/typescript-tutorial/basics)
 
-[TypeScript中文手冊](https://typescript.bootcss.com/)
+[TypeScript 中文手冊](https://typescript.bootcss.com/)
+
+[JavaTpoint](https://www.javatpoint.com/typescript-tutorial)
 
 ## 基礎環境設置
 
@@ -10,7 +12,7 @@
 npm install typescript -g
 ```
 
-## ts-node(直接編譯ts檔案，不需轉譯成js檔案)
+## ts-node(直接編譯 ts 檔案，不需轉譯成 js 檔案)
 
 [npm](https://www.npmjs.com/package/ts-node)
 
