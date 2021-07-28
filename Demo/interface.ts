@@ -26,3 +26,16 @@ const nbaTeam:IPlayer = {
     player2: 'curry'
 }
 console.log(nbaTeam) // { player1: 'james', player2: 'curry' }
+
+interface inviteGirl {
+    (totalName:string, inviteName:string):boolean
+}
+
+let party:inviteGirl;
+
+party = function(totalName:string, inviteName:string):boolean{
+    let check = totalName.search(inviteName)
+    return (check != -1)
+}
+
+console.log(party('amy, mary, lisa', 'mary'))
