@@ -6,7 +6,9 @@
 
 [JavaTpoint](https://www.javatpoint.com/typescript-tutorial)
 
-## 基礎環境設置
+[技術胖](https://jspang.com/detailed?id=63)
+
+## 基礎環境設置(全局安裝 typeScript)
 
 ```bash
 npm install typescript -g
