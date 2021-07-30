@@ -8,10 +8,20 @@ class player {
         this.brakes = brakes
     }
     say():void{
-        console.log('hello')
+        console.log('hello', 'jan')
     }
 }
 
 const jan:player = new player('jan', 23, '123')
-console.log(jan)
+console.log(jan , 'jan2')
 jan.say()
+
+class NewPlayer extends player{
+    say():void{ 
+        return super.say() //繼承父組件
+    }
+}
+
+const bill:NewPlayer = new NewPlayer('bill', 18, '123');
+console.log(bill)
+bill.say()

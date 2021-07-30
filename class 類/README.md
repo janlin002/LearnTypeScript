@@ -15,3 +15,32 @@
 - 可以付值，但 Instance 無法顯示
 
 ### readonly(只讀)
+
+## 使用方法
+
+```typescript
+// 定義
+class girl {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    (this.name = name), (this.age = age);
+  }
+  say(): void {
+    console.log('say function');
+  }
+}
+// 使用
+
+const vianna: girl = new girl('vianna', 23);
+vianna.say();
+
+// 父子傳遞
+class boy extends girl {
+  say(): void {
+    return super.say();
+  }
+}
+const david: boy = new boy('david', 23);
+david.say();
+```
