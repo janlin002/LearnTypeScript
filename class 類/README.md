@@ -16,11 +16,19 @@
 - 可以付值，但 Instance 無法顯示
 - 只允许在 class 的内部被调用，外部不允许调用
 
+### readonly(只讀)
+
+- 只能讀取，不能更改或是需叫
+
+### static
+
+- 為一個 function，只有在呼叫時才能使用
+
 ### Get vs Set
 
-> Get 限制 => 因此不能有任何參數，而且一定要有回傳值，否則會報錯。
+- Get 限制 => 因此不能有任何參數，而且一定要有回傳值，否則會報錯。
 
-> Set 限制 => 模擬指派任何值到屬性的方式進行物件的存值，只能有一個參數
+- Set 限制 => 模擬指派任何值到屬性的方式進行物件的存值，只能有一個參數
 
 ```typescript
 class Person {
@@ -44,8 +52,6 @@ person.name = 'apple';
 
 console.log(person.name); // 输出 apple
 ```
-
-### readonly(只讀)
 
 # 基本使用方法
 
