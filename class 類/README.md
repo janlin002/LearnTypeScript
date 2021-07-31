@@ -24,7 +24,50 @@
 
 ### readonly(只讀)
 
-# 使用方法
+## 關於繼承
+
+- 基礎 class 物件
+
+```typescript
+class Person {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+  say() {
+    console.log('say hello');
+  }
+}
+const david: Person = new Person('jan', 18);
+david.say();
+```
+
+- 參數繼承
+
+```typescript
+class Father extends Person {
+  constructor() {
+    super('bill', 16);
+  }
+}
+const bill: Father = new Father();
+```
+
+- 函式繼承
+
+```typescript
+class GeandFa extends Person {
+  sayHello() {
+    return super.say();
+  }
+}
+const eric: GrandFa = new GrandFa();
+eric.sayHello();
+```
+
+## 基本使用方法
 
 ```typescript
 // 定義

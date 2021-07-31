@@ -72,37 +72,37 @@ console.log(eric.name, eric.age, 'eric')
 
 // get set 增加存取的安全性
 
-let password = 'iloveyoubabe';
-class passwordCheck {
-    private _password:string;
-    get getPass():string{
-        return this._password
-    }
-    set getPass(password:string){
-        if(password&&password === 'iloveyoubabe'){
-            this._password = password;
-        }else {
-            console.log('外人勿入')
-        }
-    }
-}
+// let password = 'iloveyoubabe';
+// class passwordCheck {
+//     private _password:string;
+//     get getPass():string{
+//         return this._password
+//     }
+//     set getPass(password:string){
+//         if(password&&password === 'iloveyoubabe'){
+//             this._password = password;
+//         }else {
+//             console.log('外人勿入')
+//         }
+//     }
+// }
 
-const passChecker:passwordCheck = new passwordCheck();
-passChecker.getPass = 'jan';
-if (passChecker.getPass) {
-    console.log(passChecker.getPass); //Una Lin
-}
+// const passChecker:passwordCheck = new passwordCheck();
+// passChecker.getPass = 'jan';
+// if (passChecker.getPass) {
+//     console.log(passChecker.getPass); //Una Lin
+// }
 
 // 基本的class
 // 寫法一
-class Person {
-    name:string;
-    age:number;
-    constructor(name:string, age:number){
-        this.name = name;
-        this.age = age
-    }
-}
+// class Person {
+//     name:string;
+//     age:number;
+//     constructor(name:string, age:number){
+//         this.name = name;
+//         this.age = age
+//     }
+// }
 
 // const amy:Person = new Person('amy', 18);
 // console.log(amy.age)
@@ -149,6 +149,15 @@ class MyFather extends MySon{
 const kobe:MyFather = new MyFather('blackmamba', 45, true)
 console.log(kobe, 'kobe')
 kobe.say()
+
+class GrandMyFather extends MySon{
+    constructor(){
+        super('grand', 80, false)
+    }
+}
+
+const grandFa = new GrandMyFather();
+console.log(grandFa, 'grandFa')
 
 // get set
 
