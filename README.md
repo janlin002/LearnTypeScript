@@ -8,6 +8,8 @@
 
 [技術胖](https://jspang.com/detailed?id=63)
 
+[網路資源](https://pjchender.blogspot.com/2020/07/typescript-react-using-typescript-in.html)
+
 ## 基礎環境設置(全局安裝 typeScript)
 
 ```bash
